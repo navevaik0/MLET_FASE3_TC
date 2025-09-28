@@ -14,8 +14,8 @@ app = FastAPI(
 )
 
 # Estrutura de pastas
-RAW_FOLDER = os.path.join("data", "RAW")
-PROCESSED_FOLDER = os.path.join("data", "PROCESSED")
+RAW_FOLDER = os.path.join("FASE3_TC", "data", "RAW")
+PROCESSED_FOLDER = os.path.join("FASE3_TC", "data", "PROCESSED")
 
 DATASET_FILE = os.path.join(RAW_FOLDER, "Titanic-Dataset.csv")
 DB_FILE = os.path.join(PROCESSED_FOLDER, "titanic.db")
