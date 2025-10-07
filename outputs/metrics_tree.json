@@ -1,0 +1,37 @@
+{
+  "features_order": [
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Sex_male",
+    "Embarked_C",
+    "Embarked_Q",
+    "Embarked_S"
+  ],
+  "best_params": {
+    "criterion": "gini",
+    "max_depth": 3,
+    "min_samples_leaf": 5,
+    "min_samples_split": 2
+  },
+  "cv_best_score_roc_auc": 0.8463911449922422,
+  "test": {
+    "roc_auc": 0.8176548089591569,
+    "accuracy": 0.7877094972067039,
+    "precision": 0.7627118644067796,
+    "recall": 0.6521739130434783,
+    "f1": 0.703125,
+    "confusion_matrix": [
+      [
+        96,
+        14
+      ],
+      [
+        24,
+        45
+      ]
+    ]
+  }
+}

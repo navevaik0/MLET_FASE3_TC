@@ -1,0 +1,21 @@
+{
+  "model": "DecisionTree (baseline)",
+  "features_order": [
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Sex_male",
+    "Embarked_C",
+    "Embarked_Q",
+    "Embarked_S"
+  ],
+  "test": {
+    "roc_auc": 0.7774703557312254,
+    "accuracy": 0.7932960893854749,
+    "precision": 0.7424242424242424,
+    "recall": 0.7101449275362319,
+    "f1": 0.725925925925926
+  }
+}
