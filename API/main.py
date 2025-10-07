@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 # Configuração do Kaggle
-os.environ["KAGGLE_CONFIG_DIR"] = r"C:\Users\erick\Documents\FIAP\TC\FASE3_TC\kaggle"
+os.environ["KAGGLE_CONFIG_DIR"] = r"C:\Users\pedro\OneDrive\1- ESTUDO\2- FIAP\1- POS TECH MACHINE LEARNING\F3\TECHCHALLENGER\DADOS"
 
 app = FastAPI(
     title="Titanic Dataset Loader",
